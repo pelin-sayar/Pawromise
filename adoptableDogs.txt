@@ -1,0 +1,11 @@
+String name, String pupAdultOld, String breed, int expenses, Boolean energetic, Boolean trained, Boolean childFriendly, Boolean dogFriendly, Boolean catFriendly
+Max, old, Labrador Retriever, 7500, false, true, true, true, true, 
+Charlie, adult, German Shepherd, 4600, true, true, true, false, false, 
+Cooper, adult, French Bulldog, 7400, false, false, true, false, false, 
+Rocky, old, Poodle, 2500, false, true, false, false, false, 
+Lilac, puppy, Golden Retriever, 11500, true, false, true, true, true,   
+Luna, puppy, Bulldog, 6400, false, true, true, true, false, 
+Bella, adult, Beagle, 1700, true, true, false, true, false, 
+Daisy, puppy, Rottweiler, 8400, true, true, false, true, false, 
+Lucy, old, Dachshund, 8500, false, true, true, false, false, 
+Molly, adult, Siberian Husky, 4500, true, true, true, false, true, 
