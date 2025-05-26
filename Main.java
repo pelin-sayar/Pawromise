@@ -14,7 +14,6 @@ public class Main {
         for (int i = 0; i < aspects1.length; i++){ //add the elements in the array to the ArrayList for easier use
             aspects.add(aspects1[i]);
         }
-        // System.out.println(aspects);
         ArrayList<Dog> dogs = new ArrayList<Dog>();
         
         try {
@@ -32,8 +31,7 @@ public class Main {
         }
         
         ArrayList<Dog> theBest = Dog.bestDogs(dogs, aspects); //find the best dogs for the user's preferences
-        //System.out.println();
-        // System.out.println("Your results: "); //display the best dogs
+        //display the best dogs for user
         for (int i = 0; i < theBest.size(); i++) {
             System.out.println(i+1 + ") " + theBest.get(i).toString());
         }
