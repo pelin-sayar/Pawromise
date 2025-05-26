@@ -77,19 +77,14 @@ public class Dog {
 
     //returns the best dogs for the user's preferences
     public static ArrayList<Dog> bestDogs(ArrayList<Dog> dogs, ArrayList<String> aspects) {
-        // if (dogs.size() <= 1){
-        //     return dogs;
-        // }
         String aspect = aspects.get(0).toLowerCase();
         Dog dog = dogs.get(0);
         for (int i = 0; i < aspects.size(); i++){
             //loops through the aspects
             aspect = aspects.get(i).toLowerCase();
-            // System.out.println(aspect);
             for (int j = 0; j < dogs.size(); j++){
                 //loops through the dogs to remove the ones that don't match with the disired aspects
                 dog = dogs.get(j);
-                // System.out.println(dog.getName());
                 if (dogs.size() == 0){
                     System.out.println("No dogs match your preferences.");
                     return dogs;
@@ -129,7 +124,6 @@ public class Dog {
                 else if (aspect.equals("cat friendly") && dog.getCatFriendly() != true){
                     dogs.remove(j);
                     j--;
-                    // System.out.println("hi");
                 }
                 else{
                     try {
